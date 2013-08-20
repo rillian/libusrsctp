@@ -6,5 +6,5 @@ discard_server_SOURCES = discard_server.c
 discard_server_LDADD = ../usrsctplib/libusrsctp.la
 client_SOURCES = client.c
 client_LDADD = ../usrsctplib/libusrsctp.la
-INCLUDES = -I$(srcdir)/../usrsctplib
+AM_CPPFLAGS = -I$(srcdir)/../usrsctplib
 
