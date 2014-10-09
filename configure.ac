@@ -1,5 +1,6 @@
-AC_INIT(usrsctplib/netinet/sctp.h)
-AM_INIT_AUTOMAKE(libusrsctp, 0.1)
+AC_INIT([libusrsctp], [0.1])
+AC_CONFIG_SRCDIR([usrsctplib/netinet/sctp.h])
+AM_INIT_AUTOMAKE
 
 AC_PROG_CC
 AC_PROG_LIBTOOL
